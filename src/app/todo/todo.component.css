@@ -1,0 +1,54 @@
+.To-Do {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+
+section {
+  font-family: "Open Sans", sans-serif;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  width: 90%;
+}
+
+.delete {
+  display: flex;
+  justify-content: flex-end;
+}
+div {
+  display: flex;
+  align-items: center;
+}
+.complete {
+  color: #ff1493;
+  border: 1px solid #ff1493;
+  border-radius: 5px;
+  margin: 5px;
+}
+.completed {
+  text-decoration: line-through;
+}
+
+input {
+  border: 1px solid #eee;
+}
+::placeholder {
+  color: #bbb;
+}
+.add {
+  background-color: #ff1493;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
