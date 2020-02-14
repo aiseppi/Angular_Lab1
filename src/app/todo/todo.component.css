@@ -15,6 +15,21 @@ section {
   justify-content: center;
   margin: 10px;
   width: 90%;
+  padding-inline-start: 30px;
+  padding-inline-end: 30px;
+}
+h1 {
+  margin: 10px 0px 0px 0px;
+}
+
+p {
+  margin: 5px;
+}
+
+ol {
+  padding-inline-start: 20px;
+  padding-inline-end: 30px;
+  margin: 2px;
 }
 
 .delete {
@@ -37,6 +52,8 @@ div {
 
 input {
   border: 1px solid #eee;
+  padding: 5px;
+  margin: 0px 0px 5px 0px;
 }
 ::placeholder {
   color: #bbb;
@@ -47,6 +64,7 @@ input {
   font-size: 15px;
   border-radius: 5px;
   padding: 5px;
+  margin: 10px 0px 10px 0px;
 }
 
 form {
